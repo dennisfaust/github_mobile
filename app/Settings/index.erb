@@ -16,7 +16,7 @@
         <span class="title">Client ID:</span>
       </div>
       <div class="itemValue">
-        <span class="clientID"><%= Rhom::Rhom::client_id %></span>
+        <span class="clientID"><%= @auth_user if @auth_user %></span>
       </div>
     </li>
     <li><a href="<%= url_for :action => :reset %>">Reset Database</a></li>
