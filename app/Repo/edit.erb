@@ -1,0 +1,67 @@
+<div class="pageTitle">
+  <h1>Edit <%= @repo.description %></h1>
+</div>
+
+<div class="toolbar">
+  <div class="leftItem backButton">
+    <a href="<%= url_for :action => :show, :id => @repo.object %>">Cancel</a>
+  </div>
+  <div class="rightItem regularButton">
+    <a class="button" href="<%= url_for :action => :delete, :id => @repo.object %>">Delete</a>
+  </div>
+</div>
+
+<div class="content">
+  <form method="POST" action="<%= url_for :action => :update %>">
+    <input type="hidden" name="id" value="<%= @repo.object %>"/>
+    <ul>
+      
+          <li>
+            <label for="repo[description]" class="fieldLabel">Description</label>
+            <input type="text" name="repo[description]" value="<%= @repo.description %>" <%= placeholder( "Description" ) %> />
+          </li>
+      
+          <li>
+            <label for="repo[forks]" class="fieldLabel">Forks</label>
+            <input type="text" name="repo[forks]" value="<%= @repo.forks %>" <%= placeholder( "Forks" ) %> />
+          </li>
+      
+          <li>
+            <label for="repo[name]" class="fieldLabel">Name</label>
+            <input type="text" name="repo[name]" value="<%= @repo.name %>" <%= placeholder( "Name" ) %> />
+          </li>
+      
+          <li>
+            <label for="repo[watchers]" class="fieldLabel">Watchers</label>
+            <input type="text" name="repo[watchers]" value="<%= @repo.watchers %>" <%= placeholder( "Watchers" ) %> />
+          </li>
+      
+          <li>
+            <label for="repo[private]" class="fieldLabel">Private</label>
+            <input type="text" name="repo[private]" value="<%= @repo.private %>" <%= placeholder( "Private" ) %> />
+          </li>
+      
+          <li>
+            <label for="repo[url]" class="fieldLabel">Url</label>
+            <input type="text" name="repo[url]" value="<%= @repo.url %>" <%= placeholder( "Url" ) %> />
+          </li>
+      
+          <li>
+            <label for="repo[fork]" class="fieldLabel">Fork</label>
+            <input type="text" name="repo[fork]" value="<%= @repo.fork %>" <%= placeholder( "Fork" ) %> />
+          </li>
+      
+          <li>
+            <label for="repo[owner]" class="fieldLabel">Owner</label>
+            <input type="text" name="repo[owner]" value="<%= @repo.owner %>" <%= placeholder( "Owner" ) %> />
+          </li>
+      
+          <li>
+            <label for="repo[homepage]" class="fieldLabel">Homepage</label>
+            <input type="text" name="repo[homepage]" value="<%= @repo.homepage %>" <%= placeholder( "Homepage" ) %> />
+          </li>
+      
+    </ul>
+    <input type="submit" class="standardButton" value="Update"/>
+  </form>
+</div>

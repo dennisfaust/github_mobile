@@ -1,0 +1,63 @@
+<div class="pageTitle">
+  <h1><%= @repo.description %></h1>
+</div>
+
+<div class="toolbar">
+  <div class="leftItem backButton">
+    <a href="<%= url_for :action => :index %>">Back</a>
+  </div>
+  <div class="rightItem regularButton">
+    <a href="<%= url_for :action => :edit, :id => @repo.object %>">Edit</a>
+  </div>
+</div>
+
+<div class="content">
+  <ul>
+    
+        <li>
+          <div class="itemLabel">Description</div>
+          <div class="itemValue"><%= @repo.description %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Forks</div>
+          <div class="itemValue"><%= @repo.forks %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Name</div>
+          <div class="itemValue"><%= @repo.name %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Watchers</div>
+          <div class="itemValue"><%= @repo.watchers %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Private</div>
+          <div class="itemValue"><%= @repo.private %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Url</div>
+          <div class="itemValue"><%= @repo.url %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Fork</div>
+          <div class="itemValue"><%= @repo.fork %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Owner</div>
+          <div class="itemValue"><%= @repo.owner %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Homepage</div>
+          <div class="itemValue"><%= @repo.homepage %></div>
+        </li>
+    
+  </ul>
+</div>

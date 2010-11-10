@@ -1,0 +1,73 @@
+<div class="pageTitle">
+  <h1>New <%= @repo.title %></h1>
+</div>
+
+<div class="toolbar">
+  <div class="leftItem backButton">
+    <a class="cancel" href="<%= url_for :action => :index %>">Cancel</a>
+  </div>
+</div>
+
+<div class="content">
+  <form method="POST" action="<%= url_for :action => :create %>">
+    <input type="hidden" name="id" value="<%= @repo.object %>"/>
+    <ul>
+      
+          <li>
+            <label for="repo[description]" class="fieldLabel">Description</label>
+            <input type="text" name="repo[description]" <%=
+            placeholder("Description") %> />
+          </li>
+      
+          <li>
+            <label for="repo[forks]" class="fieldLabel">Forks</label>
+            <input type="text" name="repo[forks]" <%=
+            placeholder("Forks") %> />
+          </li>
+      
+          <li>
+            <label for="repo[name]" class="fieldLabel">Name</label>
+            <input type="text" name="repo[name]" <%=
+            placeholder("Name") %> />
+          </li>
+      
+          <li>
+            <label for="repo[watchers]" class="fieldLabel">Watchers</label>
+            <input type="text" name="repo[watchers]" <%=
+            placeholder("Watchers") %> />
+          </li>
+      
+          <li>
+            <label for="repo[private]" class="fieldLabel">Private</label>
+            <input type="text" name="repo[private]" <%=
+            placeholder("Private") %> />
+          </li>
+      
+          <li>
+            <label for="repo[url]" class="fieldLabel">Url</label>
+            <input type="text" name="repo[url]" <%=
+            placeholder("Url") %> />
+          </li>
+      
+          <li>
+            <label for="repo[fork]" class="fieldLabel">Fork</label>
+            <input type="text" name="repo[fork]" <%=
+            placeholder("Fork") %> />
+          </li>
+      
+          <li>
+            <label for="repo[owner]" class="fieldLabel">Owner</label>
+            <input type="text" name="repo[owner]" <%=
+            placeholder("Owner") %> />
+          </li>
+      
+          <li>
+            <label for="repo[homepage]" class="fieldLabel">Homepage</label>
+            <input type="text" name="repo[homepage]" <%=
+            placeholder("Homepage") %> />
+          </li>
+      
+    </ul>
+    <input type="submit" class="standardButton" value="Create"/>
+  </form>
+</div>
