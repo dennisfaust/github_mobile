@@ -13,18 +13,24 @@
     <% end %>
    <li>
       <div class="itemLabel">
-        <span class="title">Client ID:</span>
+        <span class="title">Hi,</span>
       </div>
       <div class="itemValue">
-        <span class="clientID"><%= @auth_user if @auth_user %></span>
+        <span class="clientID"><%= $user[:login] if !$user.nil? %></span>
       </div>
     </li>
+
     <li><a href="<%= url_for :action => :reset %>">Reset Database</a></li>
+<!-- 
     <li><a href="<%= url_for :action => :do_sync %>">Perform Sync</a></li>
-    <% if SyncEngine::logged_in > 0 %>
+-->
+    <% if !$user.nil? %>
         <li><a href="<%= url_for :action => :logout %>">Logout</a></li>
     <% else %>
         <li><a href="<%= url_for :action => :login %>">Login</a></li>
-    <% end %>
+    <% end %> 
+    
+    <li><a href="SpecRunner">Run tests</a></li>
+    
   </ul>
 </div>

@@ -8,9 +8,8 @@ class SettingsController < Rho::RhoController
   include BrowserHelper
   
   def index
-    @msg = @params['msg']
-    @auth_user = @params['auth_user']
-    render :back => '/app'
+    @msg = @params['msg'] 
+    render :action => :index, :back => '/app'
   end
   
   # Display form
@@ -25,35 +24,29 @@ class SettingsController < Rho::RhoController
     
     if @params['body'] && @params['body']['user'] && @params['body']['user']['plan']
       # login successful
-      # TODO: Save user to User Model = @params['body']['user']
-      WebView.navigate( url_for :action => :index, :query => {:auth_user => @params['body']['user']['login'] } ) 
+      User.delete_all             
+      @params['body']['user']['password'] = @@password             # save the password TODO: Encrypt the PW.
+      @user = User.create(@params['body']['user']) 
+      # puts "Created USER ="+@user.inspect
+      #     
+      @user = User.find(:all)
+      # puts "Found USER ="+@user.inspect
+      # puts "USER name ="+@user[0].vars[:name]
+      
+      # update the global user
+      $user = @user[0].vars
+      puts "New GLOBAL USER ="+$user.inspect 
+      WebView.navigate( url_for :action => :index ) 
     else
-      @@auth_user = nil
       @msg = "Login failed."
       WebView.navigate( url_for :action => :login, :query => {:msg => @msg} ) 
     end
-    
-    # errCode = @params['error_code'].to_i
-    # if errCode == 0
-    #   # run sync if we were successful
-    #   WebView.navigate Rho::RhoConfig.options_path
-    #   SyncEngine.dosync
-    # else
-    #   if errCode == Rho::RhoError::ERR_CUSTOMSYNCSERVER
-    #     @msg = @params['error_message']
-    #   end
-    #     
-    #   if !@msg || @msg.length == 0   
-    #     @msg = Rho::RhoError.new(errCode).message
-    #   end
-    #   
-    #   WebView.navigate ( url_for :action => :login, :query => {:msg => @msg} )
-    # end  
   end               
   
   # Form POST submit comes here
   def do_login
     if @params['user'] and @params['password']
+      @@password = @params['password']
       begin
         User.login(@params['user'], @params['password'], (url_for :action => :login_callback) )
         render :action => :wait
@@ -68,8 +61,8 @@ class SettingsController < Rho::RhoController
   end
   
   def logout
-    # SyncEngine.logout
-    # TODO: Blank the logged in user and save it.
+    User.delete_all
+    $user = nil 
     @msg = "You have been logged out."
     render :action => :login
   end
@@ -80,13 +73,12 @@ class SettingsController < Rho::RhoController
   
   def do_reset
     Rhom::Rhom.database_full_reset
-#    SyncEngine.dosync
+    $user = nil 
     @msg = "Database has been reset."
     redirect :action => :index, :query => {:msg => @msg}
   end
   
   def do_sync
-#    SyncEngine.dosync
     @msg =  "Sync has been triggered."
     redirect :action => :index, :query => {:msg => @msg}
   end

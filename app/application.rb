@@ -12,5 +12,11 @@ class AppApplication < Rho::RhoApplication
     # Uncomment to set sync notification callback to /app/Settings/sync_notify.
     # SyncEngine::set_objectnotify_url("/app/Settings/sync_notify")
     # SyncEngine.set_notification(-1, "/app/Settings/sync_notify", '')
+    
+    # Load the User's saved information
+    tmp = User.find(:all)
+    $user = nil
+    $user = tmp[0].vars if !tmp.nil? && !tmp[0].nil? 
+    puts "LOGGED IN USER="+$user.inspect
   end
 end

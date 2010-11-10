@@ -14,4 +14,4 @@ iphone:
   provisionprofile:
   codesignidentity:
   entitlements:
-extensions: ["json", "another-extension"]
+extensions: ["json", "fileutils", "mspec"]
