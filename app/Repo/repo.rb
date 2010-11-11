@@ -2,9 +2,16 @@
 # You can add more methods here
 class Repo
   include Rhom::PropertyBag
+  
+  
+  def Repo.list (user = nil, password = nil, passed_callback = nil)
+    return nil if user.nil? || password.nil? || passed_callback.nil?
+    result = {}                                                                            
+    url = "https://"+user+":"+password+'@'+$BASE_URL+$FORMAT+"/repos/show/"+user 
+    puts "Repo.list url ="+url                            
 
-  # Uncomment the following line to enable sync with Repo.
-  # enable :sync
+# TODO Wrap this with error handling    
+    result = Rho::AsyncHttp.get( :url => url, :callback  => passed_callback )     
+  end
 
-  #add model specifc code here
 end

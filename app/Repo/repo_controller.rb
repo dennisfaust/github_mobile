@@ -7,8 +7,33 @@ class RepoController < Rho::RhoController
   #GET /Repo
   def index
     @repos = Repo.find(:all)
-    render
+    render :back => '/app'
+  end   
+  
+  def refresh
+    WebView.navigate( url_for :action => :login, :query => {:msg => "Please login first."} ) if $user.nil?
+    begin
+      Repo.list($user[:login], $user[:password], (url_for :action => :refresh_callback) )
+      render :action => :wait
+    rescue Rho::RhoError => e
+      @msg = e.message
+      render :action => :index
+    end
   end
+  
+  def refresh_callback
+    puts "refresh Callback @params ="+@params.inspect    
+    if @params['body'] && @params['body']['repositories'] && @params['body']['repositories'].length > 0         # api call successful
+      Repo.delete_all             
+      @params['body']['repositories'].each {|r| Repo.create(r) }
+      repo_list = Repo.find(:all)
+      puts "Refreshed List of REPOs ="+repo_list.inspect 
+      WebView.navigate( url_for :action => :index ) 
+    else
+      WebView.navigate( url_for :action => :login, :query => {:msg => "Refresh Failed"} ) 
+    end
+  end
+  
 
   # GET /Repo/{1}
   def show

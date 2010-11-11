@@ -7,7 +7,7 @@
     <a href="<%= url_for :controller => :app, :action => :index %>">Home</a>
   </div>
   <div class="rightItem regularButton">
-    <a class="button" href="<%= url_for :action => :new %>">New</a>
+    <a class="button" href="<%= url_for :action => :refresh %>">Refresh</a>
   </div>
 </div>
 
@@ -17,7 +17,7 @@
     
         <li>
           <a href="<%= url_for :action => :show, :id => repo.object %>">
-            <span class="title"><%= repo.description %></span><span class="disclosure_indicator"></span>
+            <span class="title"><%= repo.name %></span><span class="disclosure_indicator"></span>
           </a>
         </li>
     

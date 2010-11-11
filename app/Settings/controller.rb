@@ -12,37 +12,11 @@ class SettingsController < Rho::RhoController
     render :action => :index, :back => '/app'
   end
   
-  # Display form
   def login
     @msg = @params['msg']
     render :action => :login, :back => '/app/Settings'
   end
-  
-  # Backend return comes back here
-  def login_callback 
-    puts "Login Callback @params ="+@params.inspect
     
-    if @params['body'] && @params['body']['user'] && @params['body']['user']['plan']
-      # login successful
-      User.delete_all             
-      @params['body']['user']['password'] = @@password             # save the password TODO: Encrypt the PW.
-      @user = User.create(@params['body']['user']) 
-      # puts "Created USER ="+@user.inspect
-      #     
-      @user = User.find(:all)
-      # puts "Found USER ="+@user.inspect
-      # puts "USER name ="+@user[0].vars[:name]
-      
-      # update the global user
-      $user = @user[0].vars
-      puts "New GLOBAL USER ="+$user.inspect 
-      WebView.navigate( url_for :action => :index ) 
-    else
-      @msg = "Login failed."
-      WebView.navigate( url_for :action => :login, :query => {:msg => @msg} ) 
-    end
-  end               
-  
   # Form POST submit comes here
   def do_login
     if @params['user'] and @params['password']
@@ -59,6 +33,26 @@ class SettingsController < Rho::RhoController
       render :action => :login
     end
   end
+
+  # Backend return comes back here
+  def login_callback 
+    puts "Login Callback @params ="+@params.inspect    
+    if @params['body'] && @params['body']['user'] && @params['body']['user']['plan']
+      # login successful
+      User.delete_all             
+      @params['body']['user']['password'] = @@password             # save the password TODO: Encrypt the PW.
+      @user = User.create(@params['body']['user']) 
+      @user = User.find(:all)
+      
+      # update the global user
+      $user = @user[0].vars
+      puts "New GLOBAL USER ="+$user.inspect 
+      WebView.navigate( url_for :action => :index ) 
+    else
+      @msg = "Login failed."
+      WebView.navigate( url_for :action => :login, :query => {:msg => @msg} ) 
+    end
+  end               
   
   def logout
     User.delete_all

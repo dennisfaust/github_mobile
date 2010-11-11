@@ -12,6 +12,10 @@ class AppApplication < Rho::RhoApplication
     # Uncomment to set sync notification callback to /app/Settings/sync_notify.
     # SyncEngine::set_objectnotify_url("/app/Settings/sync_notify")
     # SyncEngine.set_notification(-1, "/app/Settings/sync_notify", '')
+                   
+    # GitHub URLs
+    $BASE_URL =  "github.com/api/v2/"
+    $FORMAT = "json"
     
     # Load the User's saved information
     tmp = User.find(:all)
@@ -20,3 +24,10 @@ class AppApplication < Rho::RhoApplication
     puts "LOGGED IN USER="+$user.inspect
   end
 end
+                           
+
+# module Globals
+#   MY_CONSTANT=
+# end
+# 
+# reference with Globals::MY_CONSTANT
