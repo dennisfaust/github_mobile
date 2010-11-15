@@ -15,10 +15,22 @@
 <div class="content">
   <ul>
       <li>
-          <a href="<%= url_for :controller => :Repo, :action => :index %>"><span class="title">Repositories</span><span class="disclosure_indicator"/></a>
+          <a href="<%= url_for :controller => :News, :action => :index %>"><span class="title">News Feed</span><span class="disclosure_indicator"/></a>
+      </li>      
+      <li>
+          <a href="<%= url_for :controller => :Repo, :action => :index %>"><span class="title">Repos</span><span class="disclosure_indicator"/></a>
       </li>
       <li>
-          <a href="<%= url_for :controller => :Settings, :action => :login %>"><span class="title">Next</span><span class="disclosure_indicator"/></a>
-      </li>
-  </ul>
+          <a href="<%= url_for :controller => :Issues, :action => :index %>"><span class="title">Issues</span><span class="disclosure_indicator"/></a>
+      </li> 
+      <li>
+          <a href="<%= url_for :controller => :Settings, :action => :index %>"><span class="title">Gists</span><span class="disclosure_indicator"/></a>
+      </li> 
+      <li>
+          <a href="<%= url_for :controller => :Search, :action => :index %>"><span class="title">Search GitHub</span><span class="disclosure_indicator"/></a>
+      </li> 
+
+  </ul> 
+  
+  
 </div>
