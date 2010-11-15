@@ -5,19 +5,22 @@ class RepoController < Rho::RhoController
   include BrowserHelper
 
   #GET /Repo
-  def index
+  def index   
     @repos = Repo.find(:all)
     render :back => '/app'
   end   
   
   def refresh
-    WebView.navigate( url_for :action => :login, :query => {:msg => "Please login first."} ) if $user.nil?
-    begin
-      Repo.list($user[:login], $user[:password], (url_for :action => :refresh_callback) )
-      render :action => :wait
-    rescue Rho::RhoError => e
-      @msg = e.message
-      render :action => :index
+    if $user.nil? 
+      WebView.navigate( url_for :action => :login, :query => {:msg => "Please login first."} )    
+    else
+      begin
+        Repo.list($user[:login], $user[:password], (url_for :action => :refresh_callback) )
+        render :action => :wait
+      rescue Rho::RhoError => e
+        @msg = e.message
+        render :action => :index
+      end
     end
   end
   
