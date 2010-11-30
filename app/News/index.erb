@@ -1,0 +1,33 @@
+<div class="pageTitle">
+  <h1>News Feed</h1>
+</div>
+
+<div class="toolbar">
+<!--
+  <div class="leftItem regularButton">
+    <a href="<%= Rho::RhoConfig.start_path %>">Home</a>
+  </div>
+-->
+  <div class="rightItem regularButton">
+    <a class="button" href="<%= url_for :action => :refresh %>">Refresh</a>
+  </div>
+</div>
+
+<div class="content">
+  <ul>            
+      <% if @msg %>
+        <li style="color: red; text-align: center"><%= @msg %></li>
+      <% end %>
+      <% @news.each do |news| %>    
+        <li>
+         <% if news.media_thumbnail['url'] %>
+         <%= news.media_thumbnail['url'].inspect  %>
+            <img src="<%= news.media_thumbnail['url'] %>" alt="<%= news.author['name'] if  news.author['name'] %>">
+          <% end %>
+          <a href="<%= url_for :action => :show, :id => news.object %>">             
+            <span class="newstitle"><%= news.title %> <br> <%= news.published %></span><span class="disclosure_indicator"></span>
+          </a>
+        </li>
+      <% end %>
+  </ul>
+</div>

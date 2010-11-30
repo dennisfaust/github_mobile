@@ -1,0 +1,67 @@
+<div class="pageTitle">
+  <h1>New <%= @news.title %></h1>
+</div>
+
+<div class="toolbar">
+  <div class="leftItem backButton">
+    <a class="cancel" href="<%= url_for :action => :index %>">Cancel</a>
+  </div>
+</div>
+
+<div class="content">
+  <form method="POST" action="<%= url_for :action => :create %>">
+    <input type="hidden" name="id" value="<%= @news.object %>"/>
+    <ul>
+      
+          <li>
+            <label for="news[title]" class="fieldLabel">Title</label>
+            <input type="text" name="news[title]" <%=
+            placeholder("Title") %> />
+          </li>
+      
+          <li>
+            <label for="news[author]" class="fieldLabel">Author</label>
+            <input type="text" name="news[author]" <%=
+            placeholder("Author") %> />
+          </li>
+      
+          <li>
+            <label for="news[media:thumbnail]" class="fieldLabel">Media:thumbnail</label>
+            <input type="text" name="news[media:thumbnail]" <%=
+            placeholder("Media:thumbnail") %> />
+          </li>
+      
+          <li>
+            <label for="news[published]" class="fieldLabel">Published</label>
+            <input type="text" name="news[published]" <%=
+            placeholder("Published") %> />
+          </li>
+      
+          <li>
+            <label for="news[id]" class="fieldLabel">Id</label>
+            <input type="text" name="news[id]" <%=
+            placeholder("Id") %> />
+          </li>
+      
+          <li>
+            <label for="news[content]" class="fieldLabel">Content</label>
+            <input type="text" name="news[content]" <%=
+            placeholder("Content") %> />
+          </li>
+      
+          <li>
+            <label for="news[link]" class="fieldLabel">Link</label>
+            <input type="text" name="news[link]" <%=
+            placeholder("Link") %> />
+          </li>
+      
+          <li>
+            <label for="news[updated]" class="fieldLabel">Updated</label>
+            <input type="text" name="news[updated]" <%=
+            placeholder("Updated") %> />
+          </li>
+      
+    </ul>
+    <input type="submit" class="standardButton" value="Create"/>
+  </form>
+</div>

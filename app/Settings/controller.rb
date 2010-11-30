@@ -20,7 +20,8 @@ class SettingsController < Rho::RhoController
   # Form POST submit comes here
   def do_login
     if @params['user'] and @params['password']
-      @@password = @params['password']
+      @@password = @params['password'] 
+      @@token = @params['token']
       begin
         User.login(@params['user'], @params['password'], (url_for :action => :login_callback) )
         render :action => :wait
@@ -41,6 +42,8 @@ class SettingsController < Rho::RhoController
       # login successful
       User.delete_all             
       @params['body']['user']['password'] = @@password             # save the password TODO: Encrypt the PW.
+      @params['body']['user']['token'] = @@token                   # save the user's token
+      
       @user = User.create(@params['body']['user']) 
       @user = User.find(:all)
       

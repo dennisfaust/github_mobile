@@ -1,0 +1,60 @@
+<div class="pageTitle">
+  <h1><%= @news.title[0..16] %></h1>
+</div>
+
+<div class="toolbar">
+  <div class="leftItem backButton">
+    <a href="<%= url_for :action => :index %>">Back</a>
+  </div> 
+<!--
+  <div class="rightItem regularButton">
+    <a href="<%= url_for :action => :edit, :id => @news.object %>">Edit</a>
+  </div>
+-->
+</div>
+
+<div class="content">
+  <ul>
+    
+        <li>
+          <div class="itemLabel">Title</div>
+          <div class="itemValue"><%= @news.title %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Author</div>
+          <div class="itemValue"><%= @news.author %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Media_thumbnail</div>
+          <div class="itemValue"><%= @news.media_thumbnail %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Published</div>
+          <div class="itemValue"><%= @news.published %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Id</div>
+          <div class="itemValue"><%= @news.id %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Content</div>
+          <div class="itemValue"><%= @news.content %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Link</div>
+          <div class="itemValue"><%= @news.link %></div>
+        </li>
+    
+        <li>
+          <div class="itemLabel">Updated</div>
+          <div class="itemValue"><%= @news.updated %></div>
+        </li>
+    
+  </ul>
+</div>

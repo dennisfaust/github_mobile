@@ -1,0 +1,56 @@
+<div id="pageTitle">
+	<h1><%= @news.title%></h1>
+</div>
+
+<div id="toolbar">
+        <%= link_to "Back", :action => :index %>
+        <%= link_to "Edit", :action => :edit, :id => @news.object %>
+</div>
+
+
+<div id="content">
+
+    <table>
+      
+      <tr>
+    	<td class="itemLabel">Title</td>
+        <td class="itemValue"><%= @news.title%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Author</td>
+        <td class="itemValue"><%= @news.author%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Media:thumbnail</td>
+        <td class="itemValue"><%= @news.media:thumbnail%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Published</td>
+        <td class="itemValue"><%= @news.published%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Id</td>
+        <td class="itemValue"><%= @news.id%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Content</td>
+        <td class="itemValue"><%= @news.content%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Link</td>
+        <td class="itemValue"><%= @news.link%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Updated</td>
+        <td class="itemValue"><%= @news.updated%></td>
+      </tr>
+      
+    </table>
+</div>

@@ -1,0 +1,59 @@
+<div id="pageTitle">
+		<h1>Edit <%= @news.title%></h1>
+</div>
+
+<div id="toolbar">
+    <%= link_to "Back", :action => :show, :id => @news.object %>
+    <%= link_to "Delete", :action => :delete, :id => @news.object %>
+</div>
+
+
+<div id="content">
+    <form method="POST" action="<%= url_for :action => :update %>">
+    	<input type="hidden" name="id" value="<%= @news.object %>"/>
+            <table>
+        		
+                    <tr>
+            			<td class="itemLabel">Title: </td>
+              			<td class="itemValue"><input type="text" name="news[title]" value="<%= @news.title %>"/></td>
+          		    </tr>
+        		
+                    <tr>
+            			<td class="itemLabel">Author: </td>
+              			<td class="itemValue"><input type="text" name="news[author]" value="<%= @news.author %>"/></td>
+          		    </tr>
+        		
+                    <tr>
+            			<td class="itemLabel">Media:thumbnail: </td>
+              			<td class="itemValue"><input type="text" name="news[media:thumbnail]" value="<%= @news.media:thumbnail %>"/></td>
+          		    </tr>
+        		
+                    <tr>
+            			<td class="itemLabel">Published: </td>
+              			<td class="itemValue"><input type="text" name="news[published]" value="<%= @news.published %>"/></td>
+          		    </tr>
+        		
+                    <tr>
+            			<td class="itemLabel">Id: </td>
+              			<td class="itemValue"><input type="text" name="news[id]" value="<%= @news.id %>"/></td>
+          		    </tr>
+        		
+                    <tr>
+            			<td class="itemLabel">Content: </td>
+              			<td class="itemValue"><input type="text" name="news[content]" value="<%= @news.content %>"/></td>
+          		    </tr>
+        		
+                    <tr>
+            			<td class="itemLabel">Link: </td>
+              			<td class="itemValue"><input type="text" name="news[link]" value="<%= @news.link %>"/></td>
+          		    </tr>
+        		
+                    <tr>
+            			<td class="itemLabel">Updated: </td>
+              			<td class="itemValue"><input type="text" name="news[updated]" value="<%= @news.updated %>"/></td>
+          		    </tr>
+        		
+            </table>
+            <input type="submit" class="standardButton" value="Update" />
+    </form>
+</div>
