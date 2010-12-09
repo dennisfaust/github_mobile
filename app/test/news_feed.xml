@@ -1,0 +1,1765 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/dennisfaust.private</id>
+  <link type="text/html" rel="alternate" href="https://github.com/dennisfaust"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/dennisfaust.private.atom?token=62448070e1090cdd884b29b90694d225"/>
+  <title>Private Feed for dennisfaust</title>
+  <updated>2010-11-30T12:31:39-08:00</updated>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1021965873</id>
+    <published>2010-11-30T12:31:39-08:00</published>
+    <updated>2010-11-30T12:31:39-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/9d9ce8b2f7...9fd3055cdc"/>
+    <title>donnoman pushed to master at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/9fd3055cdc63c1b92b0ea45f7d066fab69e37fec"&gt;9fd3055&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;update email_report rake tasks to include whether the subscriber is suspended&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/rtomsmith" class="committer"&gt;rtomsmith&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/c8073ceca6b24acfa650dff395faa08ec892ca4c"&gt;c8073ce&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;Fixed exception in Earn subscriber create&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/1021964609</id>
+    <published>2010-11-30T12:31:27-08:00</published>
+    <updated>2010-11-30T12:31:27-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/tree/1291149071"/>
+    <title>donnoman created tag 1291149071 at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+  &lt;div class="message"&gt;
+    
+      New tag is at
+      &lt;a href="https://github.com/netbooks/signup/tree/1291149071"&gt;netbooks/signup/tree/1291149071&lt;/a&gt;
+      
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1021953127</id>
+    <published>2010-11-30T12:23:39-08:00</published>
+    <updated>2010-11-30T12:23:39-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/c8073ceca6...9fd3055cdc"/>
+    <title>donnoman pushed to testing at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/9fd3055cdc63c1b92b0ea45f7d066fab69e37fec"&gt;9fd3055&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;update email_report rake tasks to include whether the subscriber is suspended&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1021941887</id>
+    <published>2010-11-30T12:14:13-08:00</published>
+    <updated>2010-11-30T12:14:13-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/9d9ce8b2f7...c8073ceca6"/>
+    <title>rtomsmith pushed to testing at netbooks/signup</title>
+    <author>
+      <name>rtomsmith</name>
+      <uri>https://github.com/rtomsmith</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/d7ebc9f2247febf1e501c6aa085d4e75?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/rtomsmith" class="committer"&gt;rtomsmith&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/c8073ceca6b24acfa650dff395faa08ec892ca4c"&gt;c8073ce&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;Fixed exception in Earn subscriber create&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1020832187</id>
+    <published>2010-11-29T17:24:56-08:00</published>
+    <updated>2010-11-29T17:24:56-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/f93ab4baf7...9d9ce8b2f7"/>
+    <title>donnoman pushed to master at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/9d9ce8b2f75c2e05d6f1a4e4679f4fbe771ec1f6"&gt;9d9ce8b&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;adjust tell-a-friend ordering to add subdomain&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/73708ff1e8befb0416970d1e9934974b0d7b6ff9"&gt;73708ff&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;adjust tell-a-friend ordering on hq&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/e2d7204069ad941fd1b64d7375816a14bdd32d43"&gt;e2d7204&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;fix for when paginate does count with the referral_emails&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/9f3ee4c45ac242a5ef1d7372effda1f796bd0b11"&gt;9f3ee4c&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;added pagination to the tell-a-friend controller&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/087adfdb31a7230d9073948969c725daeda11b9f"&gt;087adfd&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;fix headquarters tell-a-friend from pulling up deleted subscribers&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/1020832142</id>
+    <published>2010-11-29T17:24:47-08:00</published>
+    <updated>2010-11-29T17:24:47-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/tree/1291080255"/>
+    <title>donnoman created tag 1291080255 at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+  &lt;div class="message"&gt;
+    
+      New tag is at
+      &lt;a href="https://github.com/netbooks/signup/tree/1291080255"&gt;netbooks/signup/tree/1291080255&lt;/a&gt;
+      
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1020819095</id>
+    <published>2010-11-29T17:21:43-08:00</published>
+    <updated>2010-11-29T17:21:43-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/73708ff1e8...9d9ce8b2f7"/>
+    <title>donnoman pushed to testing at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/9d9ce8b2f75c2e05d6f1a4e4679f4fbe771ec1f6"&gt;9d9ce8b&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;adjust tell-a-friend ordering to add subdomain&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1020813142</id>
+    <published>2010-11-29T17:16:16-08:00</published>
+    <updated>2010-11-29T17:16:16-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/e2d7204069...73708ff1e8"/>
+    <title>donnoman pushed to testing at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/73708ff1e8befb0416970d1e9934974b0d7b6ff9"&gt;73708ff&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;adjust tell-a-friend ordering on hq&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1020805771</id>
+    <published>2010-11-29T17:13:07-08:00</published>
+    <updated>2010-11-29T17:13:07-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/9f3ee4c45a...e2d7204069"/>
+    <title>donnoman pushed to testing at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/e2d7204069ad941fd1b64d7375816a14bdd32d43"&gt;e2d7204&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;fix for when paginate does count with the referral_emails&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1020766587</id>
+    <published>2010-11-29T16:57:51-08:00</published>
+    <updated>2010-11-29T16:57:51-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/087adfdb31...9f3ee4c45a"/>
+    <title>donnoman pushed to testing at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/9f3ee4c45ac242a5ef1d7372effda1f796bd0b11"&gt;9f3ee4c&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;added pagination to the tell-a-friend controller&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1020695546</id>
+    <published>2010-11-29T16:15:18-08:00</published>
+    <updated>2010-11-29T16:15:18-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/f93ab4baf7...087adfdb31"/>
+    <title>donnoman pushed to testing at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/087adfdb31a7230d9073948969c725daeda11b9f"&gt;087adfd&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;fix headquarters tell-a-friend from pulling up deleted subscribers&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1011948229</id>
+    <published>2010-11-22T16:09:13-08:00</published>
+    <updated>2010-11-22T16:09:13-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/wp_wordpress/compare/8ffefd9bdb...36269dcdb8"/>
+    <title>netbooks pushed to master at netbooks/wp_wordpress</title>
+    <author>
+      <name>netbooks</name>
+      <uri>https://github.com/netbooks</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/f803bf08d3afb50cd3808d4ed441ff93?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;strong&gt;&lt;span class='committer'&gt;root&lt;/span&gt;&lt;/strong&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/wp_wordpress/commit/36269dcdb84cc9fde9fee83d55a6b22732d1b037"&gt;36269dc&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;db update&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1011768146</id>
+    <published>2010-11-22T14:16:16-08:00</published>
+    <updated>2010-11-22T14:16:16-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/eaf1a845ac...f93ab4baf7"/>
+    <title>donnoman pushed to master at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/f93ab4baf718e8196d9ea9e3863137f8488719e6"&gt;f93ab4b&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;fix switching renewal_periods for expired plans&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/0000b4653795f0f6eb93d0940b401bcd29ac26d1"&gt;0000b46&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;fixed the date presented in the failed charge notification to be a set date&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/1011767871</id>
+    <published>2010-11-22T14:15:53-08:00</published>
+    <updated>2010-11-22T14:15:53-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/tree/1290464174"/>
+    <title>donnoman created tag 1290464174 at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+  &lt;div class="message"&gt;
+    
+      New tag is at
+      &lt;a href="https://github.com/netbooks/signup/tree/1290464174"&gt;netbooks/signup/tree/1290464174&lt;/a&gt;
+      
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1011739998</id>
+    <published>2010-11-22T13:57:34-08:00</published>
+    <updated>2010-11-22T13:57:34-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/0000b46537...f93ab4baf7"/>
+    <title>donnoman pushed to testing at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/f93ab4baf718e8196d9ea9e3863137f8488719e6"&gt;f93ab4b&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;fix switching renewal_periods for expired plans&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1011565279</id>
+    <published>2010-11-22T11:57:21-08:00</published>
+    <updated>2010-11-22T11:57:21-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/eaf1a845ac...0000b46537"/>
+    <title>donnoman pushed to testing at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/0000b4653795f0f6eb93d0940b401bcd29ac26d1"&gt;0000b46&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;fixed the date presented in the failed charge notification to be a set date&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008389431</id>
+    <published>2010-11-19T13:37:05-08:00</published>
+    <updated>2010-11-19T13:37:05-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/community/compare/f5ec2eb3f2...bb60ecbbcc"/>
+    <title>donnoman pushed to master at netbooks/community</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/community/commit/bb60ecbbcc877c7692200b47e0336ae04c61d914"&gt;bb60ecb&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;Merge commit '1290202605'&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/community/commit/1902b79aaee331ab945eaa0f5b8864c9aeab9eab"&gt;1902b79&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;show ads&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/community/commit/68852d7387c41508b29fca1dd784b3de54bf5980"&gt;68852d7&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;show ads&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/community/commit/5ff3d9067cac973a40328e3c9b73476acedefc82"&gt;5ff3d90&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;show ads&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/community/commit/1b1fa7ce6b5f326fd561dab5b581812f358a5bd3"&gt;1b1fa7c&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;show ads&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/community/commit/5d1ecb680d83928d418e19670e73be8e5d533956"&gt;5d1ecb6&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;fix community style&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/1008389350</id>
+    <published>2010-11-19T13:36:54-08:00</published>
+    <updated>2010-11-19T13:36:54-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/community/tree/1290202605"/>
+    <title>donnoman created tag 1290202605 at netbooks/community</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+  &lt;div class="message"&gt;
+    
+      New tag is at
+      &lt;a href="https://github.com/netbooks/community/tree/1290202605"&gt;netbooks/community/tree/1290202605&lt;/a&gt;
+      
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008389026</id>
+    <published>2010-11-19T13:36:18-08:00</published>
+    <updated>2010-11-19T13:36:18-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/1a47fed258...eaf1a845ac"/>
+    <title>donnoman pushed to master at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/eaf1a845ac824339b48e7cfe5640477cfbaddb37"&gt;eaf1a84&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;adjust enforce_convert_from_free to catch the correct segments&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/1008388877</id>
+    <published>2010-11-19T13:36:06-08:00</published>
+    <updated>2010-11-19T13:36:06-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/tree/1290202555"/>
+    <title>donnoman created tag 1290202555 at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+  &lt;div class="message"&gt;
+    
+      New tag is at
+      &lt;a href="https://github.com/netbooks/signup/tree/1290202555"&gt;netbooks/signup/tree/1290202555&lt;/a&gt;
+      
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008367108</id>
+    <published>2010-11-19T13:27:45-08:00</published>
+    <updated>2010-11-19T13:27:45-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/community/compare/68852d7387...1902b79aae"/>
+    <title>vinhboy pushed to testing at netbooks/community</title>
+    <author>
+      <name>vinhboy</name>
+      <uri>https://github.com/vinhboy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/45afc5b02255db47aecea5504be609cf?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/community/commit/1902b79aaee331ab945eaa0f5b8864c9aeab9eab"&gt;1902b79&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;show ads&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008363264</id>
+    <published>2010-11-19T13:24:53-08:00</published>
+    <updated>2010-11-19T13:24:53-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/community/compare/5ff3d9067c...68852d7387"/>
+    <title>vinhboy pushed to testing at netbooks/community</title>
+    <author>
+      <name>vinhboy</name>
+      <uri>https://github.com/vinhboy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/45afc5b02255db47aecea5504be609cf?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/community/commit/68852d7387c41508b29fca1dd784b3de54bf5980"&gt;68852d7&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;show ads&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008341077</id>
+    <published>2010-11-19T13:03:42-08:00</published>
+    <updated>2010-11-19T13:03:42-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/1a47fed258...eaf1a845ac"/>
+    <title>donnoman pushed to testing at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/eaf1a845ac824339b48e7cfe5640477cfbaddb37"&gt;eaf1a84&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;adjust enforce_convert_from_free to catch the correct segments&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008340218</id>
+    <published>2010-11-19T13:02:05-08:00</published>
+    <updated>2010-11-19T13:02:05-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/community/compare/1b1fa7ce6b...5ff3d9067c"/>
+    <title>vinhboy pushed to testing at netbooks/community</title>
+    <author>
+      <name>vinhboy</name>
+      <uri>https://github.com/vinhboy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/45afc5b02255db47aecea5504be609cf?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/community/commit/5ff3d9067cac973a40328e3c9b73476acedefc82"&gt;5ff3d90&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;show ads&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008318292</id>
+    <published>2010-11-19T12:49:35-08:00</published>
+    <updated>2010-11-19T12:49:35-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/community/compare/5d1ecb680d...1b1fa7ce6b"/>
+    <title>vinhboy pushed to testing at netbooks/community</title>
+    <author>
+      <name>vinhboy</name>
+      <uri>https://github.com/vinhboy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/45afc5b02255db47aecea5504be609cf?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/community/commit/1b1fa7ce6b5f326fd561dab5b581812f358a5bd3"&gt;1b1fa7c&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;show ads&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008296052</id>
+    <published>2010-11-19T12:43:58-08:00</published>
+    <updated>2010-11-19T12:43:58-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/2ca1964b37...1a47fed258"/>
+    <title>donnoman pushed to master at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/1a47fed2589ce9ba7e8d1ab51c72c3888782b7c2"&gt;1a47fed&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;Merge branch 'enforce_free_conversion' into testing&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/c40a4390b10736c0888ec477400d613a49e972c7"&gt;c40a439&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;added email_enforce_convert_from_free&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/566169a4eca046196ca875d5c407cb8ed1a2ab84"&gt;566169a&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;put a date limit of 11/19/2010&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/8446380a0188563c7a6f03044808b881a3073023"&gt;8446380&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;wip&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/1008296002</id>
+    <published>2010-11-19T12:43:46-08:00</published>
+    <updated>2010-11-19T12:43:46-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/tree/1290199398"/>
+    <title>donnoman created tag 1290199398 at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+  &lt;div class="message"&gt;
+    
+      New tag is at
+      &lt;a href="https://github.com/netbooks/signup/tree/1290199398"&gt;netbooks/signup/tree/1290199398&lt;/a&gt;
+      
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008294895</id>
+    <published>2010-11-19T12:41:45-08:00</published>
+    <updated>2010-11-19T12:41:45-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/community/compare/4e4abdca03...5d1ecb680d"/>
+    <title>vinhboy pushed to testing at netbooks/community</title>
+    <author>
+      <name>vinhboy</name>
+      <uri>https://github.com/vinhboy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/45afc5b02255db47aecea5504be609cf?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/community/commit/5d1ecb680d83928d418e19670e73be8e5d533956"&gt;5d1ecb6&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;fix community style&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008278963</id>
+    <published>2010-11-19T12:21:48-08:00</published>
+    <updated>2010-11-19T12:21:48-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/566169a4ec...1a47fed258"/>
+    <title>donnoman pushed to testing at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/1a47fed2589ce9ba7e8d1ab51c72c3888782b7c2"&gt;1a47fed&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;Merge branch 'enforce_free_conversion' into testing&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/donnoman" class="committer"&gt;donnoman&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/c40a4390b10736c0888ec477400d613a49e972c7"&gt;c40a439&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;added email_enforce_convert_from_free&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008277096</id>
+    <published>2010-11-19T12:20:10-08:00</published>
+    <updated>2010-11-19T12:20:10-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/wp_wordpress/compare/02cf77bb0b...8ffefd9bdb"/>
+    <title>netbooks pushed to master at netbooks/wp_wordpress</title>
+    <author>
+      <name>netbooks</name>
+      <uri>https://github.com/netbooks</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/f803bf08d3afb50cd3808d4ed441ff93?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;strong&gt;&lt;span class='committer'&gt;root&lt;/span&gt;&lt;/strong&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/wp_wordpress/commit/8ffefd9bdbbf393645addb8de7f487e6decc0b96"&gt;8ffefd9&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;made the loops better&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008257030</id>
+    <published>2010-11-19T11:55:59-08:00</published>
+    <updated>2010-11-19T11:55:59-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/2ca1964b37...566169a4ec"/>
+    <title>vinhboy pushed to testing at netbooks/signup</title>
+    <author>
+      <name>vinhboy</name>
+      <uri>https://github.com/vinhboy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/45afc5b02255db47aecea5504be609cf?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/566169a4eca046196ca875d5c407cb8ed1a2ab84"&gt;566169a&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;put a date limit of 11/19/2010&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008159046</id>
+    <published>2010-11-19T11:05:08-08:00</published>
+    <updated>2010-11-19T11:05:08-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/compare/50160f27c1...2ca1964b37"/>
+    <title>donnoman pushed to master at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/rtomsmith" class="committer"&gt;rtomsmith&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/2ca1964b37a69e2467de3fb31c8430a590b358a9"&gt;2ca1964&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;Fixed bug when trying to switch Premium to annual&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/signup/commit/b843e696b331a7989289e602f79bec9efb981192"&gt;b843e69&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;added affiliates to fetch info&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/1008157686</id>
+    <published>2010-11-19T11:04:54-08:00</published>
+    <updated>2010-11-19T11:04:54-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/signup/tree/1290193350"/>
+    <title>donnoman created tag 1290193350 at netbooks/signup</title>
+    <author>
+      <name>donnoman</name>
+      <uri>https://github.com/donnoman</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ed153d51199eedfc8d0b98653c15ffca?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+  &lt;div class="message"&gt;
+    
+      New tag is at
+      &lt;a href="https://github.com/netbooks/signup/tree/1290193350"&gt;netbooks/signup/tree/1290193350&lt;/a&gt;
+      
+    
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1008029330</id>
+    <published>2010-11-19T10:10:56-08:00</published>
+    <updated>2010-11-19T10:10:56-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/wp_wordpress/compare/d6b195bdb8...02cf77bb0b"/>
+    <title>vinhboy pushed to master at netbooks/wp_wordpress</title>
+    <author>
+      <name>vinhboy</name>
+      <uri>https://github.com/vinhboy</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/45afc5b02255db47aecea5504be609cf?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;a href="https://github.com/vinhboy" class="committer"&gt;vinhboy&lt;/a&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/wp_wordpress/commit/02cf77bb0b7372841ee1b7885eabc67a8628ec3d"&gt;02cf77b&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;new splash with featured sites&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1007998329</id>
+    <published>2010-11-19T09:44:01-08:00</published>
+    <updated>2010-11-19T09:44:01-08:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/netbooks/wp_wordpress/compare/7dbbab3def...d6b195bdb8"/>
+    <title>netbooks pushed to master at netbooks/wp_wordpress</title>
+    <author>
+      <name>netbooks</name>
+      <uri>https://github.com/netbooks</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/f803bf08d3afb50cd3808d4ed441ff93?s=30&amp;d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+
+
+
+
+
+&lt;div class="details"&gt;
+  
+
+  
+    &lt;div class="commits"&gt;
+    &lt;ul&gt;
+    
+      
+      &lt;li&gt;
+        
+          &lt;strong&gt;&lt;span class='committer'&gt;root&lt;/span&gt;&lt;/strong&gt;
+        
+        committed
+        &lt;code&gt;&lt;a href="/netbooks/wp_wordpress/commit/d6b195bdb8e42fbd26c254ce54a6816edae5f3cb"&gt;d6b195b&lt;/a&gt;&lt;/code&gt;
+
+        &lt;div class="message"&gt;
+          &lt;blockquote&gt;updated corp site&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    
+
+    
+    &lt;/ul&gt;
+    &lt;/div&gt;
+  
+&lt;/div&gt;
+
+
+</content>
+  </entry>
+</feed>
+

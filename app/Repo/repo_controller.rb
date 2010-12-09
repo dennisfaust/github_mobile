@@ -12,7 +12,7 @@ class RepoController < Rho::RhoController
   
   def refresh
     if $user.nil? 
-      WebView.navigate( url_for :action => :login, :query => {:msg => "Please login first."} )    
+      WebView.navigate( url_for :controller => :Settings, :action => :login, :query => {:msg => "Please login first."} )    
     else
       begin
         Repo.list($user[:login], $user[:password], (url_for :action => :refresh_callback) )

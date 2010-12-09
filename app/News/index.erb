@@ -19,11 +19,9 @@
         <li style="color: red; text-align: center"><%= @msg %></li>
       <% end %>
       <% @news.each do |news| %>    
-        <li>
-         <% if news.media_thumbnail['url'] %>
-         <%= news.media_thumbnail['url'].inspect  %>
-            <img src="<%= news.media_thumbnail['url'] %>" alt="<%= news.author['name'] if  news.author['name'] %>">
-          <% end %>
+        <li>   
+            <img src="<%= news.thumbnail_url %>">
+
           <a href="<%= url_for :action => :show, :id => news.object %>">             
             <span class="newstitle"><%= news.title %> <br> <%= news.published %></span><span class="disclosure_indicator"></span>
           </a>

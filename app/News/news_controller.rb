@@ -1,19 +1,29 @@
+require 'rho'
 require 'rho/rhocontroller'
-require 'helpers/browser_helper'
+require 'rho/rhoerror'
+require 'helpers/browser_helper' 
+require 'News/news.rb'
 
 class NewsController < Rho::RhoController
   include BrowserHelper
 
   #GET /News
   def index
-    @msg = @params['msg'] 
-    @news = News.find(:all)
+    @msg = @params['msg']
+    @news = []
+    begin
+      @news = News.find(:all) 
+    rescue Rho::RhoError => e
+      @msg = e.message
+    end
+     
+    puts "List of NEWS ="+@news.inspect  
     render
   end
 
   def refresh
     if $user.nil? 
-      WebView.navigate( url_for :controller => :settings, :action => :login, :query => {:msg => "Please login first."} )    
+      WebView.navigate( url_for :controller => :Settings, :action => :login, :query => {:msg => "Please login first."} )    
     else
       begin
         News.list($user[:login], $user[:token], (url_for :action => :refresh_news_callback) )
@@ -29,7 +39,6 @@ class NewsController < Rho::RhoController
     #puts "** IN REFRESH CALLBACK ** @params="+@params.inspect
     
     result = News.parse(@params['body'])
-    puts "** After Parse result ** ="+result.inspect
         
     if result && result.length > 0         # api call successful
       News.delete_all             

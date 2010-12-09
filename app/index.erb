@@ -8,7 +8,11 @@
         <a href="<%= url_for :controller => :Settings, :action => :login %>">Login</a>
       </div>
   <% else %>
-        <!-- TODO: If logged in show the small gravatar image -->  
+        <% if !$user[:gravatar_id].nil? %>
+        <div class="rightItem">
+          <a href="<%= url_for :controller => :Settings, :action => :index %>"><img src="<%= "https://secure.gravatar.com/avatar/"+$user[:gravatar_id]+"?s=30&d=https://github.com/images/gravatars/gravatar-140.png" %>"></a>            
+        </div>
+        <% end %>        
   <% end %>
 </div>
 
@@ -26,10 +30,11 @@
       <li>
           <a href="<%= url_for :controller => :Settings, :action => :index %>"><span class="title">Gists</span><span class="disclosure_indicator"/></a>
       </li> 
-      <li>
+      <li> 
+          <img src="https://secure.gravatar.com/avatar/45afc5b02255db47aecea5504be609cf?s=30&d=https%3A%2F%2Fgithub.com%2Fimages%2Fgravatars%2Fgravatar-140.png">
           <a href="<%= url_for :controller => :Search, :action => :index %>"><span class="title">Search GitHub</span><span class="disclosure_indicator"/></a>
       </li> 
-
+       
   </ul> 
   
   
